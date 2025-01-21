@@ -106,13 +106,15 @@
             // 
             // btnCalculate
             // 
+            this.btnCalculate.BackColor = System.Drawing.Color.RosyBrown;
             this.btnCalculate.Font = new System.Drawing.Font("MS Reference Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalculate.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnCalculate.Location = new System.Drawing.Point(29, 46);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(149, 35);
             this.btnCalculate.TabIndex = 5;
             this.btnCalculate.Text = "Calculate Salary";
-            this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.UseVisualStyleBackColor = false;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // Form1
